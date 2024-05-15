@@ -14,7 +14,7 @@ Setup
   \xe2\x80\xa2 Packages in scope: omit-keys (esc)
   \xe2\x80\xa2 Running omit-keys-task in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  omit-keys:omit-keys-task: cache miss, executing 0e2764d66f4e31cb
+  omit-keys:omit-keys-task: cache miss, executing 91e22894ea0ab2af
   omit-keys:omit-keys-task: 
   omit-keys:omit-keys-task: > omit-keys-task
   omit-keys:omit-keys-task: > echo running-omit-keys-task > out/foo.min.txt
@@ -36,7 +36,7 @@ Setup
   \xe2\x80\xa2 Packages in scope: omit-keys (esc)
   \xe2\x80\xa2 Running omit-keys-task in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  omit-keys:omit-keys-task: cache hit, suppressing logs 0e2764d66f4e31cb
+  omit-keys:omit-keys-task: cache hit, suppressing logs 91e22894ea0ab2af
   
    Tasks:    1 successful, 1 total
   Cached:    1 cached, 1 total
@@ -48,7 +48,7 @@ Setup
   \xe2\x80\xa2 Packages in scope: omit-keys (esc)
   \xe2\x80\xa2 Running omit-keys-task in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  omit-keys:omit-keys-task: cache miss, executing 610b5c185bcefc0c
+  omit-keys:omit-keys-task: cache miss, executing 2cde3c49b52eb356
   omit-keys:omit-keys-task: 
   omit-keys:omit-keys-task: > omit-keys-task
   omit-keys:omit-keys-task: > echo running-omit-keys-task > out/foo.min.txt
@@ -65,7 +65,7 @@ Setup
   \xe2\x80\xa2 Packages in scope: omit-keys (esc)
   \xe2\x80\xa2 Running omit-keys-task in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  omit-keys:omit-keys-task: cache hit, suppressing logs 610b5c185bcefc0c
+  omit-keys:omit-keys-task: cache hit, suppressing logs 2cde3c49b52eb356
   
    Tasks:    1 successful, 1 total
   Cached:    1 cached, 1 total
@@ -76,7 +76,7 @@ Setup
   \xe2\x80\xa2 Packages in scope: omit-keys (esc)
   \xe2\x80\xa2 Running omit-keys-task in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  omit-keys:omit-keys-task: cache miss, executing f4229f7e07a5c9b1
+  omit-keys:omit-keys-task: cache miss, executing 4a090509f83eb095
   omit-keys:omit-keys-task: 
   omit-keys:omit-keys-task: > omit-keys-task
   omit-keys:omit-keys-task: > echo running-omit-keys-task > out/foo.min.txt

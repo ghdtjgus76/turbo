@@ -50,7 +50,7 @@ Setup
     "taskId": "my-app#build",
     "task": "build",
     "package": "my-app",
-    "hash": "f5b905676d8a275c",
+    "hash": "153a6a7d4c933679",
     "inputs": {
       ".env.local": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
       "package.json": "1746e0db2361085b5953a6a3beab08c24af5bc08"
@@ -92,7 +92,7 @@ Setup
     },
     "expandedOutputs": [],
     "framework": "",
-    "envMode": "loose",
+    "envMode": "strict",
     "environmentVariables": {
       "specified": {
         "env": [],
@@ -113,7 +113,7 @@ Setup
     "taskId": "util#build",
     "task": "build",
     "package": "util",
-    "hash": "1ce33e04f265f95c",
+    "hash": "63990c36d6d57746",
     "inputs": {
       "package.json": "e755064fd7893809d10fc067bb409c7ae516327f"
     },
@@ -148,7 +148,7 @@ Setup
     },
     "expandedOutputs": [],
     "framework": "",
-    "envMode": "loose",
+    "envMode": "strict",
     "environmentVariables": {
       "specified": {
         "env": [

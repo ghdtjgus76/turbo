@@ -31,7 +31,7 @@ Setup
   my-app#build
     Task                           = build\s* (re)
     Package                        = my-app\s* (re)
-    Hash                           = f5b905676d8a275c\s* (re)
+    Hash                           = 153a6a7d4c933679
     Cached \(Local\)                 = false\s* (re)
     Cached \(Remote\)                = false\s* (re)
     Directory                      = apps(\/|\\)my-app\s* (re)
@@ -52,7 +52,7 @@ Setup
   util#build
     Task                           = build\s* (re)
     Package                        = util\s* (re)
-    Hash                           = 1ce33e04f265f95c\s* (re)
+    Hash                           = 63990c36d6d57746
     Cached \(Local\)                 = false\s* (re)
     Cached \(Remote\)                = false\s* (re)
     Directory                      = packages(\/|\\)util\s* (re)

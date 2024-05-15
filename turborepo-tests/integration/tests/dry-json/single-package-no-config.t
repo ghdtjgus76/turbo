@@ -27,13 +27,13 @@ Setup
         "passthrough": null
       }
     },
-    "envMode": "infer",
+    "envMode": "strict",
     "frameworkInference": true,
     "tasks": [
       {
         "taskId": "build",
         "task": "build",
-        "hash": "bfac661137d88079",
+        "hash": "96567051a30d75c2",
         "inputs": {
           ".gitignore": "03b541460c1b836f96f9c0a941ceb48e91a9fd83",
           "package-lock.json": "1c117cce37347befafe3a9cba1b8a609b3600021",
@@ -68,7 +68,7 @@ Setup
         },
         "expandedOutputs": [],
         "framework": "",
-        "envMode": "loose",
+        "envMode": "strict",
         "environmentVariables": {
           "specified": {
             "env": [],
