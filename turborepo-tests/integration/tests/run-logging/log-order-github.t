@@ -9,7 +9,7 @@ because otherwise prysk interprets them as multiline commands
   \xe2\x80\xa2 Running build in 2 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
   ::group::my-app:build
-  cache bypass, force executing c4254a39fc0a3fd7
+  cache bypass, force executing a7563b5dee763172
   
   >\sbuild (re)
   \>\secho building && sleep 1 && echo done (re)
@@ -18,7 +18,7 @@ because otherwise prysk interprets them as multiline commands
   done
   ::endgroup::
   ::group::util:build
-  cache bypass, force executing 976c7787d6111b57
+  cache bypass, force executing 5cbbbb3f7adc395b
   
   >\sbuild (re)
   \>\ssleep 0.5 && echo building && sleep 1 && echo completed (re)
@@ -37,7 +37,7 @@ because otherwise prysk interprets them as multiline commands
   \xe2\x80\xa2 Running build in 1 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
   ::group::util:build
-  util:build: cache bypass, force executing 976c7787d6111b57
+  util:build: cache bypass, force executing 5cbbbb3f7adc395b
   util:build: 
   util:build: > build
   util:build: > sleep 0.5 && echo building && sleep 1 && echo completed
@@ -57,7 +57,7 @@ Verify that errors are grouped properly
   \xe2\x80\xa2 Running fail in 2 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
   \x1b[;31mutil:fail\x1b[;0m (esc)
-  cache miss, executing b5ffdbc4b7c12126
+  cache miss, executing fe8b225c95f582d0
   
   \> fail (re)
   \> echo failing; exit 1 (re)

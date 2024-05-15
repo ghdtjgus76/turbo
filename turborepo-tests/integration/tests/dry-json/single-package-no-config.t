@@ -10,7 +10,7 @@ Setup
     "turboVersion": "[a-z0-9\.-]+", (re)
     "monorepo": false,
     "globalCacheInputs": {
-      "rootKey": "HEY STELLLLLLLAAAAAAAAAAAAA",
+      "rootKey": "I can\xe2\x80\x99t see ya, but I know you\xe2\x80\x99re here", (esc)
       "files": {
         "package-lock.json": "1c117cce37347befafe3a9cba1b8a609b3600021",
         "package.json": "8606ff4b95a5330740d8d9d0948faeada64f1f32"
@@ -33,7 +33,7 @@ Setup
       {
         "taskId": "build",
         "task": "build",
-        "hash": "96567051a30d75c2",
+        "hash": "9cff709a1e22ead6",
         "inputs": {
           ".gitignore": "03b541460c1b836f96f9c0a941ceb48e91a9fd83",
           "package-lock.json": "1c117cce37347befafe3a9cba1b8a609b3600021",

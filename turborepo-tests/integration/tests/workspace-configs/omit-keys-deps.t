@@ -15,14 +15,14 @@ Setup
   \xe2\x80\xa2 Running omit-keys-task-with-deps in 1 packages (esc)
 
   $ cat tmp.log | grep "omit-keys:omit-keys-task-with-deps"
-  omit-keys:omit-keys-task-with-deps: cache miss, executing 126301fec9f72c8d
+  omit-keys:omit-keys-task-with-deps: cache miss, executing 3bc9671a416a6f98
   omit-keys:omit-keys-task-with-deps: 
   omit-keys:omit-keys-task-with-deps: > omit-keys-task-with-deps
   omit-keys:omit-keys-task-with-deps: > echo running-omit-keys-task-with-deps > out/foo.min.txt
   omit-keys:omit-keys-task-with-deps: 
 
   $ cat tmp.log | grep "omit-keys:omit-keys-underlying-task"
-  omit-keys:omit-keys-underlying-task: cache miss, executing 7f5dd0b6af352552
+  omit-keys:omit-keys-underlying-task: cache miss, executing ce87b7213128808e
   omit-keys:omit-keys-underlying-task: 
   omit-keys:omit-keys-underlying-task: > omit-keys-underlying-task
   omit-keys:omit-keys-underlying-task: > echo running-omit-keys-underlying-task
@@ -30,7 +30,7 @@ Setup
   omit-keys:omit-keys-underlying-task: running-omit-keys-underlying-task
 
   $ cat tmp.log | grep "blank-pkg:omit-keys-underlying-topo-task"
-  blank-pkg:omit-keys-underlying-topo-task: cache miss, executing 7ed12139e308e5d3
+  blank-pkg:omit-keys-underlying-topo-task: cache miss, executing 72838545af26a16b
   blank-pkg:omit-keys-underlying-topo-task: 
   blank-pkg:omit-keys-underlying-topo-task: > omit-keys-underlying-topo-task
   blank-pkg:omit-keys-underlying-topo-task: > echo omit-keys-underlying-topo-task from blank-pkg

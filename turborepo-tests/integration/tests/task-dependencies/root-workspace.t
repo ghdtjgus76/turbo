@@ -5,13 +5,13 @@ This tests asserts that root tasks can depend on workspace#task
   \xe2\x80\xa2 Packages in scope: //, lib-a (esc)
   \xe2\x80\xa2 Running mytask in 2 packages (esc)
   \xe2\x80\xa2 Remote caching disabled (esc)
-  lib-a:build: cache miss, executing e7a8a1d306f2ac29
+  lib-a:build: cache miss, executing db761418e4694c27
   lib-a:build: 
   lib-a:build: > build
   lib-a:build: > echo build-lib-a
   lib-a:build: 
   lib-a:build: build-lib-a
-  //:mytask: cache miss, executing ec5f0f6c3ce0e958
+  //:mytask: cache miss, executing 5e363035f58bbc59
   //:mytask: 
   //:mytask: > mytask
   //:mytask: > echo root-mytask
